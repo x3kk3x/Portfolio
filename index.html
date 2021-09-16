@@ -2,12 +2,221 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="main.css" />
-    <title>Portfolio Website</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="author" content="ig: @harrnish / @codegridweb" />
+    <link rel="icon" href="/assets/icons/pngwing.com.png" />
+    <link rel="stylesheet" href="/assets/css/main.css" />
+    <title>Danijel Vanjo</title>
+
+    <!-- ANIMEJS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+
+    <!-- BOOTSTRAP -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <!-- FONTS -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Cormorant:300,300i,400,400i,500,500i,600,600i,700,700i&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Cinzel&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- IONICONS -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <!-- SCROLL REVEAL ANIMATIONS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.rawgit.com/daneden/animate.css/v3.1.0/animate.min.css"
+    />
+    <script src="https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js"></script>
+
+    <!-- SIMPLE PARALLAX -->
+    <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.0.2/dist/simpleParallax.min.js"></script>
   </head>
   <body>
-    <script src="/main.js"></script>
-  </body>
+       <!-- HERO SECTION -->
+    <a name="home" id="home-bc-up"></a>
+    <div class="wrapper">
+      <section class="hero-section">
+        <!-- LOGO -->
+        <div class="hero-logo">Danijel Vanjo</div>
+
+        <!-- HTML TAGS -->
+        <span class="wow fadeInUp tags tags-t1">
+          &nbsp;&nbsp;&nbsp;&lt;html&gt;
+        </span>
+        <span class="wow fadeInUp tags tags-t2">
+          &nbsp;&nbsp;&nbsp;&lt;body&gt;
+        </span>
+
+        <div class="hero-skewed">
+          <!-- SOCIAL MEDIA ICONS -->
+          <div class="media">
+            <ul>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/danijelvanjo/"
+                  title="Linkedin"
+                  target="_blank"
+                  ><ion-icon name="logo-linkedin"></ion-icon
+                ></a>
+              </li>
+              <li>
+                <a href="#" title="Skype handle: daniel.vanjo"
+                  ><ion-icon name="logo-skype"></ion-icon
+                ></a>
+              </li>
+            </ul>
+          </div>
+
+          <!--------------- hero section starts here --------------->
+
+          <div class="hero-img">
+            <img
+              src="/assets/img/men347_uhd (3).jpg"
+              class="hero-img-parallax"
+            />
+          </div>
+          <div class="hero-title">
+            <h1 class="hero-t">WELCOME</h1>
+          </div>
+        </div>
+      </section>
+
+      <!--------------- hero section ends here --------------->
+
+         <!--------------- about section starts here --------------->
+
+         <a name="about"></a>
+         <section class="about-section">
+           <div class="container">
+             <div class="row">
+               <div class="about-heading col-lg-6">
+                 <h1 class="wow fadeInUp" data-wow-delay="0.2s">About</h1>
+               </div>
+               <div class="about-content col-lg-6">
+                 <h3 class="wow fadeInUp" data-wow-delay="0.3s">
+                   My name is Danijel and <br />
+                   I'm a design-oriented front end developer.
+                 </h3>
+                 <p class="wow fadeInUp" data-wow-delay="0.4s">
+                   I strive to build immersive and beautiful web applications
+                   through carefully crafted code and user-centric design. <br />
+                   <br />
+                   I have a diverse set of skills, ranging from design <br />
+                   HTML + CSS/SASS + javaScript, all the way to <br />
+                   PHP + CodeIgniter platform development.
+                 </p>
+                 <br />
+                 <p class="wow fadeInUp" data-wow-delay="0.5s">
+                   Basically I create beautiful & functional websites!
+                 </p>
+               </div>
+             </div>
+           </div>
+         </section>
+   
+         <!--------------- about section ends here --------------->
+   
+         <!--------------- pictures section starts here --------------->
+   
+         <a name="projects"></a>
+         <section class="project-section">
+           <div class="container-fluid">
+             <div class="container">
+               <div class="row">
+                 <div class="col-lg-6">
+                   <div class="arrow-down"></div>
+                 </div>
+                 <div class="project-heading col-lg-12">
+                   <h1 class="wow fadeInUp" data-wow-delay="0.3s">
+                     inventiveness
+                   </h1>
+                   <p class="wow fadeInUp" data-wow-delay="0.4s">
+                     "Your website is the center of your digital eco-system, like a
+                     brick and mortar location, the experience matters once a
+                     customer enters, just as much as the perception they have of
+                     you before they walk through the door.”
+                   </p>
+                 </div>
+               </div>
+             </div>
+             <div class="projects">
+               <div class="row project-row">
+                 <div class="project project-1 col-lg-6">
+                   <img
+                     src="assets/img/sven-aeberhard-_0eX6lzK0Uc-unsplash.jpg"
+                     class="project-1-img project-img img-responsive fit-image"
+                   />
+                 </div>
+                 <div class="project project-2 col-lg-6">
+                   <img
+                     src="assets/img/osman-rana-dI9KhXi0ooE-unsplash.jpg"
+                     class="project-2-img project-img img-responsive fit-image"
+                   />
+                 </div>
+               </div>
+               <div class="row project-row">
+                 <div class="project project-3 col-lg-6">
+                   <img
+                     src="assets/img/martino-pietropoli-VSo5d9wlT7s-unsplash.jpg"
+                     class="project-3-img project-img img-responsive fit-image"
+                   />
+                 </div>
+                 <div class="project project-4 col-lg-6">
+                   <img
+                     src="assets/img/luke-southern-zPjPGQkj7tk-unsplash.jpg"
+                     class="project-4-img project-img img-responsive fit-image"
+                   />
+                 </div>
+               </div>
+               <div class="row project-row">
+                 <div class="project project-5 col-lg-6">
+                   <img
+                     src="assets/img/alberto-bobbera-0TCUOrQ00gg-unsplash.jpg"
+                     class="project-5-img project-img img-responsive fit-image"
+                   />
+                 </div>
+                 <div class="project project-6 col-lg-6">
+                   <img
+                     src="assets/img/blaz-erzetic-80VLgM7z6yw-unsplash.jpg"
+                     class="project-6-img project-img img-responsive fit-image"
+                   />
+                 </div>
+               </div>
+             </div>
+           </div>
+         </section>
+   
+         <!--------------- pictures section ends here --------------->
+         
+    <script src="/assets/js/main.js"></script>
+</body>
 </html>
